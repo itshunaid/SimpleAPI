@@ -46,6 +46,8 @@ namespace SimpleAPI
             {
                 endpoints.MapControllers();
             });
+
+            //adding this comment to check trigger on build pipeline
         }
     }
 }
