@@ -29,5 +29,11 @@ namespace SimpleAPI.Controllers
         {
             return "Hunaid";
         }
+        
+        [HttpGet]
+        public string GetAll(int id)
+        {
+            return "Hunaid";
+        }
     }
 }
